@@ -1,0 +1,82 @@
+body {
+    background-color: aliceblue;
+    background-size: cover;
+    height: 100vh;
+}
+.header {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    text-align: center;
+}
+h1 {
+    margin-bottom: 0;
+}
+p{
+    margin-top: 0;
+}
+
+.container-main {
+    background-color: rgba(100,100,100,0.4);
+    width: 50%;
+    margin: auto;
+    padding: 3%;
+    border-radius: 20px;
+}
+label{
+    display: block;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
+}
+input {
+    
+    font-size: 15px;
+    width: 98%;
+    height: 30px;
+    margin: 5px 5px 5px 0px;
+}
+#dropdown{
+    width: 99%;
+    height: 35px;
+    margin: 5px 5px 5px 0px;
+    font-size: 15px;
+}
+
+#radio {
+    margin-top: 0;
+}
+
+#radio >input {
+    width: unset;
+    margin-bottom: 0;
+    padding-top:10px ;
+    position: relative;
+    top:7px;
+    margin-top: 0;
+
+}
+#checkbox >input {
+    width: unset;
+    position: relative;
+    top:7px;
+}
+
+textarea {
+    width: 98%;
+    height: 100px;
+    margin-left: 10px;
+    font-size: 18px;
+}
+button {
+    display: block;
+    width: 50%;
+    height: 40px;
+    margin: auto;
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+button:hover {
+    color: whitesmoke;
+    background-color: black;
+}
