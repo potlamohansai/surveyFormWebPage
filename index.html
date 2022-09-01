@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="./styles.css"/>
+</head>
+<body>
+    <div class="header">
+        <h1>freeCodeCamp Survey Form</h1>
+        <p>Thank you for taking the time to help us improve the platform</p>
+    </div>
+
+    <form class="container-main" action="">
+        <label>Name
+            <input type="text" placeholder="enter your name" required/>
+        </label>
+        <label>Email
+            <input type="email" placeholder="enter your email" required/>
+        </label>
+        <label>Age
+            <input type="number" min="20" max="100" placeholder="enter your age" required/>
+        </label>
+        <label>Which option best describes your role?
+            <select id="dropdown">
+                <option disabled selected>Select current role</option>
+                <option>Student</option>
+                <option>Full Time Job</option>
+                <option>Full Time Learner</option>
+                <option>Prefer not say</option>
+                <option>Other</option>
+            </select>
+        </label>
+        <label>Would you recommend freeCodeCamp to a friend?</label>
+            <div>
+            <label id="radio" ><input type="radio"  checked/>Definitely</label> 
+            <label id="radio" ><input type="radio" />Maybe</label>
+            <label id="radio" ><input type="radio" />Not sure</label>
+            </div>
+        
+        <label>What is your favourite feature of freeCodeCamp?
+            <select id="dropdown">
+                <option disabled selected>Select an option</option>
+                <option>Challenges</option>
+                <option>Projects</option>
+                <option>Community</option>
+                <option>Open source</option>
+            </select>
+        </label>
+        
+        <label>What would you like to see improved? <i>(check all that apply)</i></label>
+            <div>
+                <label id="checkbox"><input type="checkbox"/>Front-end Projects</label>
+                <label id="checkbox"><input type="checkbox"/>Back-end Projects</label>
+                <label id="checkbox"><input type="checkbox"/>Data Visualisation</label>
+                <label id="checkbox"><input type="checkbox"/>Challenges</label>
+                <label id="checkbox"><input type="checkbox"/>Open source community</label>
+                <label id="checkbox"><input type="checkbox"/>Forum</label>
+                <label id="checkbox"><input type="checkbox"/>Additional courses</label>
+            </div>
+        
+        <label>Any comments or suggestions?</label>
+        <textarea placeholder="Enter your comment here..."></textarea>
+        <button>Submit</button>
+    </form>
+</body>
+</html>
