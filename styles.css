@@ -80,3 +80,10 @@ button:hover {
     color: whitesmoke;
     background-color: black;
 }
+
+@media(max-width:700px){
+    .container-main{
+        width:90%
+    }
+}
+        
