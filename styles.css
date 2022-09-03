@@ -81,9 +81,8 @@ button:hover {
     background-color: black;
 }
 
-@media(max-width:700px){
+@media (max-width:720px) {
     .container-main{
-        width:90%;
+        width: 80%;
     }
-}
-        
+}    
